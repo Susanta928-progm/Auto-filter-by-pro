@@ -192,7 +192,6 @@ async def start(client:Client, message):
                         ],[
                             InlineKeyboardButton('Mᴏsᴛ Sᴇᴀʀᴄʜ 🔍', callback_data="mostsearch"),
                             InlineKeyboardButton('Tᴏᴘ Tʀᴇɴᴅɪɴɢ ⚡', callback_data="trending")
-                        ]]
                         ],[
                             InlineKeyboardButton("❍ Jᴏɪɴ Uᴘᴅᴀᴛᴇ'ꜱ Cʜᴀɴɴᴇʟ ❍", url="https://t.me/AnimeChillax_Community")
                         ]]
@@ -224,7 +223,6 @@ async def start(client:Client, message):
                         ],[
                             InlineKeyboardButton('Mᴏsᴛ Sᴇᴀʀᴄʜ 🔍', callback_data="mostsearch"),
                             InlineKeyboardButton('Tᴏᴘ Tʀᴇɴᴅɪɴɢ ⚡', callback_data="trending")
-                        ]] 
                         ],[
                             InlineKeyboardButton("❍ Jᴏɪɴ Uᴘᴅᴀᴛᴇ'ꜱ Cʜᴀɴɴᴇʟ ❍", url="https://t.me/AnimeChillax_Community")
                         ]]
