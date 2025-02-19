@@ -22,7 +22,7 @@ ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ
 USERNAME = environ.get('USERNAME', "https://t.me/BORNHYPER_ACX") # ADMIN USERNAME
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002166830074'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+LHpbA_gdbyMyMmE1')
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002456261629').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002367446556').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://bornhyper1:Bornhyper5911@cluster0.gmvpm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
@@ -48,11 +48,11 @@ TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/+Ds37-TCBfGBhYjk1")
 TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/+Ds37-TCBfGBhYjk1")
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
 SHORTENER_API = environ.get("SHORTENER_API", "c2ad0ea9208aa45c6e88a5b97250db084332d17f")
-SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'https://adcash.in/auth/signup')
+SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'adcash.in')
 SHORTENER_API2 = environ.get("SHORTENER_API2", "c2ad0ea9208aa45c6e88a5b97250db084332d17f")
-SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'https://adcash.in/auth/signup')
+SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'adcash.in')
 SHORTENER_API3 = environ.get("SHORTENER_API3", "c2ad0ea9208aa45c6e88a5b97250db084332d17f")
-SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", 'https://adcash.in/auth/signup')
+SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", 'adcash.in')
 TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "14400"))
 THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "14400"))
 #---------------------------------------------------------------
