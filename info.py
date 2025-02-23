@@ -36,7 +36,7 @@ DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','0')) # The movie you upload
 LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002476467166'))
 auth_channel = environ.get('AUTH_CHANNEL', '-1002107236622')
 SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1002401464716'))
-request_channel = environ.get('REQUEST_CHANNEL', '-1002331877872') # If anyone sends a request message to your bot, you will get it in this channel.
+request_channel = environ.get('REQUEST_CHANNEL', '-1002358359240') # If anyone sends a request message to your bot, you will get it in this channel.
 MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002367446556'))# 
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/+LHpbA_gdbyMyMmE1') #Support group link ( make sure bot is admin )
 #---------------------------------------------------------------
@@ -69,7 +69,7 @@ REQUEST_CHANNEL = int(request_channel) if request_channel and id_pattern.search(
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-START_IMG = (environ.get('START_IMG', 'https://envs.sh/6cx.jpg')).split()
+START_IMG = (environ.get('START_IMG', 'https://files.catbox.moe/uwjge4.jpg')).split()
 FORCESUB_IMG = environ.get('FORCESUB_IMG', 'https://i.ibb.co/ZNC1Hnb/ad3f2c88a8f2.jpg')
 REFER_PICS = (environ.get("REFER_PICS", "https://envs.sh/PSI.jpg")).split() 
 PAYPICS = (environ.get('PAYPICS', 'https://envs.sh/QSL.jpg')).split()
