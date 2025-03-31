@@ -196,7 +196,7 @@ async def start(client:Client, message):
                             InlineKeyboardButton("❍ Jᴏɪɴ Uᴘᴅᴀᴛᴇ'ꜱ Cʜᴀɴɴᴇʟ ❍", url="https://t.me/+VvcAXCymOEJkNjA1")
                         ]]
                         reply_markup = InlineKeyboardMarkup(buttons)
-                        m=await message.reply_sticker("CAACAgUAAxkBAAKa7mexbkg9h27ltn4kfabACCU87tA3AAKTAgAC4INxVwcNtYpTp8JGNgQ") 
+                        m=await message.reply_sticker("CAACAgQAAxkBAAEBMG1n6rScbUmKJVj97toQgOgc-8LtEwACghUAAi-4WFIwqrSz3aqXODYE") 
                         await asyncio.sleep(1)
                         await m.delete()
                         await message.reply_photo(photo=random.choice(START_IMG), caption=script.START_TXT.format(message.from_user.mention, get_status(), message.from_user.id),
@@ -227,7 +227,7 @@ async def start(client:Client, message):
                             InlineKeyboardButton("❍ Jᴏɪɴ Uᴘᴅᴀᴛᴇ'ꜱ Cʜᴀɴɴᴇʟ ❍", url="https://t.me/AnimeChillax_Community")
                         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        m=await message.reply_sticker("CAACAgUAAxkBAAKa7mexbkg9h27ltn4kfabACCU87tA3AAKTAgAC4INxVwcNtYpTp8JGNgQ") 
+        m=await message.reply_sticker("CAACAgQAAxkBAAEBMG1n6rScbUmKJVj97toQgOgc-8LtEwACghUAAi-4WFIwqrSz3aqXODYE") 
         await asyncio.sleep(1)
         await m.delete()
         await message.reply_photo(photo=random.choice(START_IMG), caption=script.START_TXT.format(message.from_user.mention, get_status(), message.from_user.id),
