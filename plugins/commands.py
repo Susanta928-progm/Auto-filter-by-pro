@@ -193,7 +193,7 @@ async def start(client:Client, message):
                             InlineKeyboardButton('Mᴏsᴛ Sᴇᴀʀᴄʜ 🔍', callback_data="mostsearch"),
                             InlineKeyboardButton('Tᴏᴘ Tʀᴇɴᴅɪɴɢ ⚡', callback_data="trending")
                         ],[
-                            InlineKeyboardButton("❍ Jᴏɪɴ Uᴘᴅᴀᴛᴇ'ꜱ Cʜᴀɴɴᴇʟ ❍", url="https://t.me/AnimeChillax_Community")
+                            InlineKeyboardButton("❍ Jᴏɪɴ Uᴘᴅᴀᴛᴇ'ꜱ Cʜᴀɴɴᴇʟ ❍", url="https://t.me/+VvcAXCymOEJkNjA1")
                         ]]
                         reply_markup = InlineKeyboardMarkup(buttons)
                         m=await message.reply_sticker("CAACAgUAAxkBAAKa7mexbkg9h27ltn4kfabACCU87tA3AAKTAgAC4INxVwcNtYpTp8JGNgQ") 
